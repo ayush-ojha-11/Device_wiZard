@@ -1,0 +1,58 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:elevation="4dp"
+    android:radius="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/deviceImageView"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/ic_launcher_round"
+            android:layout_alignParentStart="true"/>
+
+        <!-- Mobile Device Name -->
+        <TextView
+            android:id="@+id/deviceNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mobile Device Name"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_toEndOf="@id/deviceImageView"
+            android:layout_marginStart="16dp"/>
+
+        <!-- Mobile Device Processor -->
+        <TextView
+            android:id="@+id/deviceProcessorTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Processor: Snapdragon 888"
+            android:textSize="14sp"
+            android:layout_below="@id/deviceNameTextView"
+            android:layout_marginTop="4dp"
+            android:layout_toEndOf="@id/deviceImageView"
+            android:layout_marginStart="16dp"/>
+
+        <TextView
+            android:id="@+id/devicePriceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price: $999"
+            android:textSize="16sp"
+            android:layout_below="@id/deviceProcessorTextView"
+            android:layout_marginTop="4dp"
+            android:layout_toEndOf="@id/deviceImageView"
+            android:layout_marginStart="16dp"/>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

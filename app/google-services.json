@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "636587159703",
+    "project_id": "device-wizard-4",
+    "storage_bucket": "device-wizard-4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636587159703:android:83fdd5e539beb656fdf9d2",
+        "android_client_info": {
+          "package_name": "com.as.devicewizard"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuVQZXpV5p65rRC98hRO9WlhYMm46RU4M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
